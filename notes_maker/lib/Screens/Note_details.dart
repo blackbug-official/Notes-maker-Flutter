@@ -218,8 +218,8 @@ class NoteDetailState extends State<NoteDetail> {
       result = await databaseHelper.updateNote(note);
     } else {
       // Case 2: Insert Operation
-      result = await databaseHelper.insertNote(note);
-    }
+      result = await databaseHelper.
+    }insertNote(note);
 
     if (result != 0) {
       // Success
